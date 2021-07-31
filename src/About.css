@@ -1,0 +1,18 @@
+* {
+  background-color: #282c34;
+}
+.grid-3-col{
+  margin-top: 100px;
+  margin-left: 17vw;
+  width: 66vw;
+  grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  grid-gap: 15px;
+}
+
+.card-body, .card-body *{
+  background: white;
+}
+.card {
+  width: 100%;
+}

@@ -1,0 +1,72 @@
+[
+    {
+        "showPronoun": "meow",
+        "dataPronoun": {
+            "subject": "meow",
+            "object": "meow",
+            "possessiveDeterminer": "meows",
+            "possessive": "meows",
+            "reflexive": "meowself"
+        }
+    },
+    {
+        "showPronoun": "she",
+        "dataPronoun": {
+          "subject": "she",
+          "object": "her",
+          "possessiveDeterminer": "her",
+          "possessive": "hers",
+          "reflexive": "herself"
+        }
+    },
+    {
+        "showPronoun": "they",
+        "dataPronoun": {
+            "subject": "they",
+            "object": "them",
+            "possessiveDeterminer": "their",
+            "possessive": "theirs",
+            "reflexive": "themselves"
+        }
+    },
+    {
+        "showPronoun": "pika",
+        "dataPronoun": {
+            "subject": "pi",
+            "object": "pika",
+            "possessiveDeterminer": "pikas",
+            "possessive": "pikas",
+            "reflexive": "pikaself"
+        }
+    },
+    {
+        "showPronoun": "nya",
+        "dataPronoun": {
+            "subject": "nya",
+            "object": "nyan",
+            "possessiveDeterminer": "nyans",
+            "possessive": "nyans",
+            "reflexive": "nyanself"
+        }    
+    },
+    {
+        "showPronoun": "kitty",
+        "dataPronoun": {
+            "subject": "kitty",
+            "object": "kitty",
+            "possessiveDeterminer": "kittys",
+            "possessive": "kittys",
+            "reflexive": "kitself"
+        }    
+    },
+    {
+        "showPronoun": "kit",
+        "dataPronoun": {
+            "subject": "kit",
+            "object": "kit",
+            "possessiveDeterminer": "kits",
+            "possessive": "kits",
+            "reflexive": "kitself"
+        }
+    }
+]

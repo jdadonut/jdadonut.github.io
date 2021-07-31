@@ -1,0 +1,13 @@
+.Navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  min-height: 5vh;
+  max-height: 20vh;
+}
+.NavbarLinks {
+  left: 100px;
+  top: calc(40px);
+  position: absolute;
+}
