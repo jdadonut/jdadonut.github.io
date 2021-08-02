@@ -16,3 +16,9 @@
 .card {
   width: 100%;
 }
+@media screen and (max-width: 768px) {
+  .grid-3-col {
+    margin-top: 140px;
+    grid-template-columns: 1fr;
+  }
+}

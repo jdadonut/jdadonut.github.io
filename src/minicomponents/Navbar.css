@@ -1,13 +1,26 @@
 .Navbar {
-  position: sticky;
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
   min-height: 5vh;
   max-height: 20vh;
+  background: transparent;
+  z-index: -2;
 }
 .NavbarLinks {
+  counter-increment: links;
   left: 100px;
   top: calc(40px);
   position: absolute;
+  height: auto;
 }
+@media screen and (max-width: 768px) {
+  .NavbarLinks {
+    top: 5px;
+    align-items: center;
+    z-index: -1;
+  }
+  
+}
+

@@ -3,8 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Home from './App';
 import About from './About';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import Policy from './Policy';
+import Policies from './Policies';
+import Projects from './_projects.json';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import ReactTooltip from 'react-tooltip';
+import { MDXStore } from './util/Store'; 
+const mdx_store = new MDXStore("./blog/**/*.mdx");
 ReactDOM.render(
   <>
   <link
@@ -16,12 +21,19 @@ ReactDOM.render(
     <ReactTooltip place="top" type="light" effect="solid"/>
     <Router>
       <Switch>
-        <Route path="/about">
-          <About />
+      <Route path="/blog/post/:id">
+          <Home store={mdx_store}/>
         </Route>
-        <Route path="/">
-          <Home />
+      <Route path="/blog">
+          <Home store={mdx_store}/>
         </Route>
+        <Route path="/projects" >
+        <Policies  modified={true} data={Projects } title={"Projects"}/>
+        </Route>
+        <Route path="/policies" component={Policies}/>
+        <Route path="/policy/:id" component={Policy}/>
+        <Route path="/about" component={About} />
+        <Route path="/" component={Home} />
       </Switch>
     </Router>
   </>,

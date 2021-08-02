@@ -22,15 +22,15 @@ function Home() {
             About
           </Link>
           <br />
-          <Link className="link" to="/about">
+          <Link className="link" to="/policies">
             Policies
           </Link>
           <br />
-          <Link className="link" to="/about">
+          <Link className="link" to="/projects">
             Projects
           </Link>
           <br />
-          <Link className="link" to="/about">
+          <Link className="link" to="/blog">
             Blog
           </Link>
         </div>

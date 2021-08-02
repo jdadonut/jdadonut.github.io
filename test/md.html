@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>/* @jsxRuntime classic */
+/* @jsx mdx */
+
+
+
+const layoutProps = { 
+  
+ }; 
+const MDXLayout = "wrapper"
+export default function MDXContent({
+  components,
+  ...props
+}) {
+  return <MDXLayout {...layoutProps} {...props} components={components} mdxType="MDXLayout">
+    <hr></hr>
+    <p>{`title: Test Post
+id: my-first-post,`}</p>
+    <h2>{`description: \"This is a test post\"`}</h2>
+    <h1>{`This is a test post`}</h1>
+    <p>{`this post is written in MDX, loaded dynamically and stored in a JSON file, where it is then cached by the server and served to the client
+by rendering it from the provided data.`}</p>
+    </MDXLayout>;
+}
+
+;
+MDXContent.isMDXComponent = true; </script>
+</body>
+
+</html>

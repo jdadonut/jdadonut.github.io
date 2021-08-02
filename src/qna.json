@@ -10,5 +10,13 @@
     {
         "question": "what do you plan to do in your life?",
         "answer": "honestly, im constantly jumping between politician, programmer, and about a half-dozen others. i don't particularly know what'll come of it but if i have enough options nothing can fail."
+    },
+    {
+        "question": "what do you like to do in your free time?",
+        "answer": "i usually code and game. not much else piques my interest, and whilst i want to get into more things it just seems that coding and gaming are the things that are most interesting and fun for me."
+    },
+    {
+        "question": "do you have any other interests?",
+        "answer": "i am quite interested in politics, specifically in making a world that works for every single person whilst preserving the environment. i am also quite interested in graphic design and human modification through technology (transhumanism)."
     }
 ]

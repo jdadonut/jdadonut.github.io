@@ -1,0 +1,21 @@
+.Policy-Container {
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+}
+.policy-name {
+    font-size: 40px;
+}
+.policy-description {
+    font-size: 20px;
+}
+.policy-text {
+    margin-top: 50px;
+    text-align: left;
+    margin-left: 100px;
+}
+@media screen and (max-width: 768px) {
+    .Policy-Container {
+        margin-top: 140px;
+    }
+}

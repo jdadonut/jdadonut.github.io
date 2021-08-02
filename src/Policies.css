@@ -1,0 +1,14 @@
+.Policies-Container {
+    margin-top: 100px;
+    color: white;
+    
+}
+.Policies-Container-Title {
+    margin-left: 40px;
+    z-index: 1;
+}
+@media screen and (max-width: 768px) {
+    .Policies-Container {
+        margin-top: 140px;
+    }
+}

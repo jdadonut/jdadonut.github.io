@@ -1,0 +1,8 @@
+.policy-listing {
+    border: 4px solid white;
+    border-radius: 5px;
+    max-width: 70vw;
+    margin-left: 15vw;
+    padding: 15px;
+    padding-top: 10px;
+}
